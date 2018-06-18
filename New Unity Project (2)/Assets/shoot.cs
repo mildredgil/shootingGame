@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class shoot : MonoBehaviour {
-  public Rigidbody bullet;
-  Rigidbody clone;
+  public Rigidbody2D bullet;
+  Rigidbody2D clone;
   float speed = 1;
 	// Use this for initialization
 	void Start () {
@@ -13,10 +13,11 @@ public class shoot : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+    Debug.Log(transform.position);
 		if(Input.GetButtonDown ("Fire1")) {
       clone = Instantiate(bullet, transform.position, transform.rotation);
-  		clone.velocity = transform.TransformDirection( new Vector3(0, 0, -speed));
-  		Destroy (clone.gameObject, 1);
+  		clone.velocity = transform.TransformDirection( new Vector2(0, speed));
+  		Destroy (clone.gameObject, 5);
     }
     
 	}

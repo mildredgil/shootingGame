@@ -11,6 +11,6 @@ public class bar : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		  transform.Translate(0f,-moveSpeed*Input.GetAxis("Horizontal")*Time.deltaTime,0f);
+		  transform.Translate(moveSpeed*Input.GetAxis("Horizontal")*Time.deltaTime,0f,0f);
 	}
 }
