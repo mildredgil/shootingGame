@@ -9,4 +9,8 @@ public class change : MonoBehaviour {
     {
         SceneManager.LoadScene("SampleScene");
     }
+
+    public static void ChangeScene(string scene){
+        SceneManager.LoadScene(scene);
+    }
 }
