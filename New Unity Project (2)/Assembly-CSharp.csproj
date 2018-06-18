@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\bar.cs" />
+    <Compile Include="Assets\change.cs" />
     <Compile Include="Assets\shoot.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/marcelarico/Desktop/shootingGame/New Unity Project (2)/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
