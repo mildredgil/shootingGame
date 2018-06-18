@@ -51,9 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\bar.cs" />
-     <Compile Include="Assets\change.cs" />
-     <Compile Include="Assets\shoot.cs" />
+     <Compile Include="Assets\scripts\bar.cs" />
+     <Compile Include="Assets\scripts\change.cs" />
+     <Compile Include="Assets\scripts\shoot.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/mimit/Documents/shootingGame/New Unity Project (2)/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
